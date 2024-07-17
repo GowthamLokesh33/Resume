@@ -59,10 +59,11 @@ body {
   text-align: center;
 }
 
-.hire-me {
+.hire-me,
+.contact-me {
   text-align: center;
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  /* padding-top: 3rem !important;
+  padding-bottom: 3rem !important; */
   align-items: center !important;
 }
 
@@ -77,7 +78,22 @@ body {
   padding-left: 1rem;
 }
 
-.img-fluid {
+#AboutMe > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+#TechnicalSkills > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+#WorkExperience > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+.profile-img {
   /* mix-blend-mode: inherit; */
   /* filter: contrast(1); */
   border-radius: 250px;
