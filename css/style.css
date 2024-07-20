@@ -58,6 +58,12 @@ body {
   text-align: center;
 }
 
+.mobile-details {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
 .hire-me,
 .contact-me {
   text-align: center;
