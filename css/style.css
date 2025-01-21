@@ -1,0 +1,114 @@
+body {
+  background-color: #0a0a0a;
+}
+
+#AboutMe,
+#TechnicalSkills,
+#WorkExperience,
+#Contact {
+  background-color: #1d1d1d;
+}
+
+#Home .py-5 {
+  padding-bottom: 0rem !important;
+}
+
+#Header .py-3 {
+  padding-bottom: 0rem !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: white;
+  background-color: red;
+}
+
+.nav-link,
+.about-body-emphasis,
+.lead,
+.position {
+  color: white;
+}
+
+.nav {
+  --bs-nav-link-color: red;
+  --bs-nav-link-hover-color: red;
+}
+
+.position {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.text-body-emphasis,
+.span,
+.role-span,
+.project-span,
+.technical-span {
+  color: red !important;
+}
+
+.experience-span {
+  float: right;
+}
+
+.about-Me,
+.profile-overview,
+.technical-skills,
+.project-details,
+.work-experience {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.contact-details {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.mobile-details {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+}
+
+.hire-me,
+.contact-me {
+  text-align: center;
+  /* padding-top: 3rem !important;
+  padding-bottom: 3rem !important; */
+  align-items: center !important;
+}
+
+.hire-button {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 50px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#AboutMe > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+#TechnicalSkills > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+#WorkExperience > .container > .row > .col-6 >.mx-lg-auto {
+  margin-right: auto !important;
+  margin-left: 100px !important;
+}
+
+.profile-img {
+  /* mix-blend-mode: inherit; */
+  /* filter: contrast(1); */
+  /* border-radius: 250px; */
+  clip-path: circle();
+}
